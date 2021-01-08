@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Bulb Assignment</title>
+	<link rel="stylesheet" type="text/css" href="bulb.css">
+</head>
+<body>
+
+
+	<img id="image" src="bulboff.gif" style="margin-left: 50px; margin-top: 50px;">
+	<button id="button" onclick="switchButton()" type="button">ON</button>
+
+
+
+<!-- the javascript -->
+<script type="text/javascript">
+
+		var bulb = button;
+	function switchButton () {
+		if (button.innerHTML == "ON") {
+			image.src= "bulbon.gif";
+			button.innerHTML = "OFF";
+		} else {
+			image.src = "bulboff.gif";
+			button.innerHTML = "ON";
+		}
+	}
+
+</script>
+
+
+</body>
+</html>
